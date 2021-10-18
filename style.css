@@ -1,0 +1,43 @@
+html, body {
+	padding: 0;
+	margin: 0;
+
+}
+
+body {
+	background: #c2eae7;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+section {
+	margin-top: 40px;
+	margin-bottom: 60px;
+	width: 500px;
+	padding: 5px 20px 20px 20px;
+	background: #99cd83;
+	border-radius: 30px;
+	position: relative;
+	z-index: 10;
+}
+
+h1 {
+	font-family: 'Suez One', serif;
+	color: white;
+}
+h3 {
+	font-family: 'Suez One', serif;
+	color: #57714c;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+
+p {
+	font-family: Arial, sans serif;
+	color: rgba(0, 0, 0, 0.6)
+	weight: 700;
+}
